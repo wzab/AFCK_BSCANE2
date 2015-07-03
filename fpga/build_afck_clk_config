@@ -1,0 +1,3 @@
+#!/bin/bash
+vivado -mode batch -source AFCK_Clk_config_BSCAN.tcl
+
