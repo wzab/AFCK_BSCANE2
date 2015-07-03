@@ -2,7 +2,7 @@ I'm preparing a framework for initial configuration of AFCK with UrJTAG.
 It integrates in a single script the configuration of SCANSTA111 and
 configuration of I2C connected features (e.g. clocks)
 
-The interesting thing is an object layer which hanfles the whole I2C tree,
+The interesting thing is an object layer which handles the whole I2C tree,
 so if one wants to talk to a particular chip, all muxes and switches are
 automatically configured in an appriate way.
 
