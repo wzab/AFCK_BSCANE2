@@ -11,7 +11,8 @@ import time
 #as the configuration is long, I've added a way
 #to disable itm, when you know, that the board
 #is already configured
-reconfigure = False
+reconfigure = True
+#reconfigure = False
 if reconfigure:
   t1=time.time()
   u=urjtag.chain()
