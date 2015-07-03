@@ -50,7 +50,7 @@ foreach my_file $my_files {
 
 # Set 'sources_1' fileset properties
 set obj [get_filesets sources_1]
-set_property "top" "i2c_vio_ctrl_top" $obj
+set_property "top" "i2c_bscan_ctrl_top" $obj
 
 #set my_ip_files [list \
 # "ip/vio_0/vio_0.xci" \
